@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TrimePay</title>
+  <link rel="stylesheet" href="/index.css" />
+  <script>
+    if(navigator.userAgent.toLocaleLowerCase().indexOf('mobile') !== -1) {
+      window.location.href = 'm/index.html'
+    }
+  </script>
+</head>
+<body>
+
+  <div id="root"></div>
+
+  <script>
+    if(!window.Promise) {
+      document.writeln('<script src="//as.alipayobjects.com/g/component/es6-promise/3.2.2/es6-promise.min.js"'+'>'+'<'+'/'+'script>');
+    }
+  </script>
+  <script src="/index.js"></script>
+  <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="9e65a7ab-afb9-44a8-9d22-68d4442093aa";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+
+</body>
+</html>
